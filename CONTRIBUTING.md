@@ -13,8 +13,6 @@ Green Commit Open Source Prototype에 관심을 갖고 기여해 주셔서 감�
 * 보안 문제 신고 방법: [`SECURITY.md`](SECURITY.md)
 * 프로젝트 라이선스: [`LICENSE`](LICENSE)
 
-`CODE_OF_CONDUCT.md`와 `SECURITY.md`는 오픈소스 전환 과정에서 추가될 예정입니다.
-
 ## 기여할 수 있는 작업
 
 다음과 같은 방식으로 기여할 수 있습니다.
