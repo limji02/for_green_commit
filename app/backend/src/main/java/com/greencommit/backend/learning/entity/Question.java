@@ -20,7 +20,7 @@ import lombok.Setter;
 
 /**
  * F011/BR08: 질문 Coach가 던지는 질문(전체 정답 코드 선노출 금지, 사용자 판단 유도).
- * Phase 1은 엔티티/Repository만 두고 실제 질문 생성 로직·API는 연결하지 않는다
+ * 현재는 엔티티/Repository만 두고 실제 질문 생성 로직·API는 연결하지 않는다
  * (질문 Coach 화면은 향후 POST /ai/orchestrations 확장과 함께 연결 예정).
  */
 @Entity

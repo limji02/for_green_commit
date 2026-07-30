@@ -16,7 +16,7 @@ import lombok.Setter;
 
 /**
  * F005/F006, 표16 Repository 카드: 공익 목적·쉬운 설명·주요 기술·최근 활동·기여 문서·외부 PR
- * 응답성·사용자 적합도·주의점. Phase 1은 F005의 Batch 확장 없이 V11 seed 데이터(5~10개)만 사용한다.
+ * 응답성·사용자 적합도·주의점. 현재는 F005의 Batch 확장 없이 V11 seed 데이터(5~10개)만 사용한다.
  */
 @Entity
 @Table(name = "repositories")

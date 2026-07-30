@@ -19,7 +19,7 @@ import lombok.Setter;
 
 /**
  * F017(현재 미연동): 주기적 Polling 설정. 테이블만 존재하며 prtracking/scheduler 패키지는
- * Phase 0 스캐폴드 그대로 비워둔다.
+ * 현재 공개 프로토타입에서는 비워둔다.
  * TODO: PR Poller 스케줄러가 이 엔티티를 읽어 주기 실행.
  */
 @Entity

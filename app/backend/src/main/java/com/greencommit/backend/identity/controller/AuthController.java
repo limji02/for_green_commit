@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F001/BR01: 표37 API — POST /auth/github/callback, 및 Phase 2가 추가한 GET /auth/session. */
+/** F001/BR01: 표37 API — POST /auth/github/callback, 및 GET /auth/session. */
 @RestController
 @RequiredArgsConstructor
 public class AuthController {
@@ -22,7 +22,7 @@ public class AuthController {
     private final AuthService authService;
 
     /**
-     * Phase 1 수동 테스트용 스텁 경로. 실제 로그인은 Phase 2부터 `/oauth2/authorization/github`
+     * 수동 테스트용 스텁 경로. 실제 로그인은 `/oauth2/authorization/github`
      * (Spring Security가 자동 제공) → GitHub 동의 화면 → `/login/oauth2/code/github` 흐름을 탄다.
      */
     @PostMapping("/auth/github/callback")

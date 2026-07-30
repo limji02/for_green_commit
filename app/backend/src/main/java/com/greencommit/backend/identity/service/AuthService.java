@@ -20,8 +20,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * F001/BR01: GitHub 계정 필수 회원가입.
- * `handleGithubCallback`은 Phase 1에서 만든 수동 테스트용 스텁 경로(실제 토큰 없이 upsert)이고,
- * `handleGithubLogin`은 Phase 2의 실제 Spring Security OAuth2 로그인 흐름(GithubOAuth2UserService)이
+ * `handleGithubCallback`은 수동 테스트용 스텁 경로(실제 토큰 없이 upsert)이고,
+ * `handleGithubLogin`은 실제 Spring Security OAuth2 로그인 흐름(GithubOAuth2UserService)이
  * 호출하는 진짜 경로로, 실제 access token/scope를 저장한다. 두 경로 모두 같은 upsert 로직을 공유한다.
  */
 @Service
@@ -41,7 +41,7 @@ public class AuthService {
         return toResponse(savedUser);
     }
 
-    /** Phase 2: 실제 GitHub OAuth2 로그인 성공 시 {@link com.greencommit.backend.common.security.GithubOAuth2UserService}가 호출. */
+    /** 실제 GitHub OAuth2 로그인 성공 시 {@link com.greencommit.backend.common.security.GithubOAuth2UserService}가 호출. */
     @Transactional
     public UserResponse handleGithubLogin(Long githubId, String githubLogin, String email, String displayName,
             String avatarUrl, Integer publicReposCount, Integer followers, String accessToken, String scope) {

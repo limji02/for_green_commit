@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * 부록C Repository·Issue 선정 루브릭을 코드화하는 자리. Phase 1은 recommendation 서비스가
+ * Repository·Issue 선정 규칙을 코드화하기 위한 엔티티. 현재는 recommendation 서비스가
  * 참고하는 명시적 규칙 몇 개만 seed로 두고, Knowledge Graph 연동(F020)은 하지 않는다.
  */
 @Entity

@@ -21,7 +21,7 @@ spring:
       port: ${SPRING_REDIS_PORT:6379}
   batch:
     job:
-      enabled: false # Repository Batch 잡은 스케줄러가 직접 트리거 (Phase 8)
+      enabled: false # Repository Batch 작업은 스케줄러가 직접 실행한다.
   security:
     oauth2:
       client:
