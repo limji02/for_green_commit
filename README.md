@@ -50,7 +50,7 @@ contribution-lab/
 └── 초보 개발자를 위한 오픈소스 기여 연습 공간
 ```
 
-`contribution-lab/`은 이후 추가될 예정이며, 문서 수정·기여자 등록·간단한 함수 구현과 같은 입문용 Issue를 제공합니다.
+`contribution-lab/`은 문서 수정, 기여자 등록, 간단한 함수 구현과 테스트 같은 입문용 Issue를 제공하는 기여 연습 공간입니다.
 
 프로젝트 구성과 데이터 흐름은 [`ARCHITECTURE.md`](ARCHITECTURE.md)를 참고하세요.
 

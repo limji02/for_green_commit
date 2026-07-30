@@ -1,4 +1,3 @@
-
 # Green Commit Prototype Architecture
 
 ## 문서 목적
@@ -112,7 +111,7 @@ for_green_commit/
 └── LICENSE
 ```
 
-`contribution-lab/`과 `.github/`의 일부 파일은 오픈소스 전환 과정에서 추가됩니다.
+`contribution-lab/`은 초보자용 기여 과제를 제공하고, `.github/`은 Issue와 Pull Request 작성 형식을 안내합니다.
 
 ## Frontend
 
