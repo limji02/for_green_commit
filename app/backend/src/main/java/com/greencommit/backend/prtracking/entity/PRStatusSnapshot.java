@@ -18,9 +18,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F017(Phase 99 보류): 주기적 PR 상태 Snapshot. 테이블만 존재하고 어떤 서비스도 아직 채우지 않는다
+ * F017(현재 미연동): 주기적 PR 상태 Snapshot. 테이블만 존재하고 어떤 서비스도 아직 채우지 않는다
  * (GET /pull-requests/{id}/status의 1회 조회는 이 테이블에 쓰지 않고 즉시 조회 결과만 반환한다).
- * TODO(Phase 99, 팀 확인 후 구현): PollingJob과 함께 주기적 상태 추적 도입.
+ * TODO: PollingJob과 함께 주기적 상태 추적 도입.
  */
 @Entity
 @Table(name = "pr_status_snapshots")

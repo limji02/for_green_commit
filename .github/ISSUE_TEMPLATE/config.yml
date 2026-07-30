@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Policy
+    url: https://github.com/userofthefreedom/for_green_commit/security/policy
+    about: 보안 취약점은 공개 Issue로 신고하지 마세요.

@@ -14,7 +14,7 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 /**
- * BR01: GitHub 계정 필수 회원가입 게이트. Phase 2에서 Spring Security OAuth2 Login(GitHub)으로
+ * BR01: GitHub 계정 필수 회원가입 게이트. Spring Security OAuth2 Login(GitHub)으로
  * 실제 로그인을 연결했다 — `/`, `/oauth2/**`, `/login/**`, `/auth/session`(비로그인 상태 확인용)을
  * 제외한 모든 요청은 인증이 필요하고, 비로그인 상태에서 보호된 API를 호출하면 로그인 페이지로
  * 리다이렉트하지 않고 401을 반환한다(프론트가 fetch로 호출하는 JSON API이기 때문).

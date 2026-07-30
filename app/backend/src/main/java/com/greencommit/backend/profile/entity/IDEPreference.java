@@ -19,7 +19,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** 표13/F004: 주 사용 IDE 선택 (Clone/IDE Handoff Deep Link 생성에 사용, BR07). */
+/** F004: 주 사용 IDE 선택 (Clone/IDE Handoff Deep Link 생성에 사용, BR07). */
 @Entity
 @Table(name = "ide_preferences")
 @Getter

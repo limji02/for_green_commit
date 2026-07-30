@@ -15,8 +15,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F005/F006, 표16 Repository 카드: 공익 목적·쉬운 설명·주요 기술·최근 활동·기여 문서·외부 PR
- * 응답성·사용자 적합도·주의점. Phase 1은 F005의 Batch 확장 없이 V11 seed 데이터(5~10개)만 사용한다.
+ * F005/F006, Repository 카드: 공익 목적·쉬운 설명·주요 기술·최근 활동·기여 문서·외부 PR
+ * 응답성·사용자 적합도·주의점. 현재는 F005의 Batch 확장 없이 V11 seed 데이터(5~10개)만 사용한다.
  */
 @Entity
 @Table(name = "repositories")
@@ -72,7 +72,7 @@ public class Repository {
 
     /**
      * 평균 첫 피드백까지 걸리는 시간(시간 단위). 추천 가산점(F006)과 PR 등록 후 기대치 안내에
-     * 쓴다. 실제 GitHub 통계 자동 집계(F017)는 Phase 99 보류라, 지금은 seed 값을 수동으로 둔다.
+     * 쓴다. 실제 GitHub 통계 자동 집계(F017)는 현재 미연동이라, 지금은 seed 값을 수동으로 둔다.
      */
     @Column(name = "avg_feedback_hours")
     private Integer avgFeedbackHours;

@@ -1,6 +1,6 @@
 package com.greencommit.backend.journey.entity;
 
-/** 부록B Journey 자동화·스킵 Matrix의 9단계. */
+/** Journey 자동화·스킵 Matrix의 9단계. */
 public enum JourneyStepType {
     TUTORIAL,
     FORK,

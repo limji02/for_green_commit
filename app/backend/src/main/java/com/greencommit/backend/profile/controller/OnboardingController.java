@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F003/F004: 표37 API — PUT /users/me/onboarding. */
+/** F003/F004: API — PUT /users/me/onboarding. */
 @RestController
 @RequiredArgsConstructor
 public class OnboardingController {

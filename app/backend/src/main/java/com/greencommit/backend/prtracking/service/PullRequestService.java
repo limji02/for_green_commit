@@ -23,7 +23,7 @@ import org.springframework.web.client.RestClient;
 
 /**
  * F016/F017 MVP 슬라이스, BR10/BR11: 사용자가 등록한 PR만 추적하며, 등록 직후 1회 상태 조회만
- * 수행한다(주기적 Polling은 F017 Phase 99 보류). GitHub 공개 REST API를 인증 없이 호출하므로
+ * 수행한다(주기적 Polling은 F017 현재 미연동). GitHub 공개 REST API를 인증 없이 호출하므로
  * Private Repo는 지원하지 않고 Rate Limit에 걸릴 수 있다 — 실패 시 500 대신 UNKNOWN을 반환한다.
  */
 @Slf4j

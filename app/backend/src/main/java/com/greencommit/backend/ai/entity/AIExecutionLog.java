@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F021(Phase 99 보류): 모델/Prompt/Embedding/Graph Schema/Repository Snapshot 버전 실행 로그.
+ * F021(현재 미연동): 모델/Prompt/Embedding/Graph Schema/Repository Snapshot 버전 실행 로그.
  * 테이블만 존재, 로직 없음.
  */
 @Entity

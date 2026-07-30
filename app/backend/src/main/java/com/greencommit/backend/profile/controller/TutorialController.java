@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F003: 표37 API — GET+POST /tutorial/progress. */
+/** F003: API — GET+POST /tutorial/progress. */
 @RestController
 @RequiredArgsConstructor
 public class TutorialController {

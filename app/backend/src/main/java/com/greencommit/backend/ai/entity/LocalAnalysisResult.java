@@ -19,8 +19,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F022(Phase 99 보류): Local GPU Model의 Repository·코드 분석 결과. 테이블만 존재, mock/stub 유지.
- * TODO(Phase 99, 팀 확인 후 구현): self-hosted Local GPU Model 실제 분석 연동.
+ * F022(현재 미연동): Local GPU Model의 Repository·코드 분석 결과. 테이블만 존재, mock/stub 유지.
+ * TODO: self-hosted Local GPU Model 실제 분석 연동.
  */
 @Entity
 @Table(name = "local_analysis_results")

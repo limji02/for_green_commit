@@ -16,7 +16,7 @@ import lombok.Setter;
 
 /**
  * F001/BR01: GitHub 계정 필수 회원가입으로 생성되는 서비스 사용자.
- * 실제 OAuth2 핸드셰이크는 Phase 2에서 붙이고, Phase 1은 콜백 스텁이 이 엔티티를 upsert한다.
+ * 실제 OAuth2 핸드셰이크는 Spring Security OAuth2가 처리하고, 수동 콜백 경로는 콜백 스텁이 이 엔티티를 upsert한다.
  */
 @Entity
 @Table(name = "users")

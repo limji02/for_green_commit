@@ -19,7 +19,7 @@ import lombok.Setter;
 
 /**
  * F001: OAuth2 Access/Refresh Token 보관 자리(BR01 Secret 원칙). 실제 GitHub OAuth2 핸드셰이크는
- * Phase 2에서 Spring Security OAuth2 Client로 채워지며, Phase 1에서는 콜백 스텁이 placeholder 값을 넣는다.
+ * Spring Security OAuth2 Client에서 채워지며, 수동 콜백 경로에서는 콜백 스텁이 placeholder 값을 넣는다.
  */
 @Entity
 @Table(name = "oauth_credentials")

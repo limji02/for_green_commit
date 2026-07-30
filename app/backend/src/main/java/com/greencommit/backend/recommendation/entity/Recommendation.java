@@ -19,7 +19,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** F006: 개인화 Repository 추천(단순 규칙 기반 스코어링, Knowledge Graph는 F020 Phase 99). */
+/** F006: 개인화 Repository 추천(단순 규칙 기반 스코어링, Knowledge Graph는 F020 미연동). */
 @Entity
 @Table(name = "recommendations")
 @Getter

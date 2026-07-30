@@ -18,9 +18,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F020(Phase 99 보류): Neo4j Knowledge Graph 추천 근거 경로. 테이블은 존재하나
+ * F020(현재 미연동): Neo4j Knowledge Graph 추천 근거 경로. 테이블은 존재하나
  * 어떤 서비스도 이 엔티티를 조회/저장하지 않는다.
- * TODO(Phase 99, 팀 확인 후 구현): Neo4j 실제 그래프 질의로 GraphPath 채우기.
+ * TODO: Neo4j 실제 그래프 질의로 GraphPath 채우기.
  */
 @Entity
 @Table(name = "graph_paths")

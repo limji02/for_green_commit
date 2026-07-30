@@ -18,6 +18,7 @@ app/frontend/coverage/
 app/backend/.gradle/
 app/backend/build/
 app/backend/out/
+app/backend/bin/
 **/*.class
 !app/backend/gradle/wrapper/gradle-wrapper.jar
 
@@ -28,6 +29,10 @@ app/ai/**/*.pyc
 app/ai/.pytest_cache/
 app/ai/.mypy_cache/
 app/ai/*.egg-info/
+
+# ==== Python cache (all project directories) ====
+**/__pycache__/
+**/*.py[cod]
 
 # ==== Docker / 인프라 데이터 (app/infra) ====
 app/infra/.data/

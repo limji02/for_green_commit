@@ -3,7 +3,7 @@ package com.greencommit.backend.catalog.dto;
 import java.time.Instant;
 import java.util.UUID;
 
-/** GET /repositories/{id}/issues 응답 — 표16 Issue 카드. */
+/** GET /repositories/{id}/issues 응답 — Issue 카드. */
 public record IssueCardResponse(
         UUID issueId,
         UUID repositoryId,

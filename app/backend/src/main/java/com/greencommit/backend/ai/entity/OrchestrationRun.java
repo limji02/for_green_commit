@@ -19,9 +19,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F021(Phase 99 보류): Orchestrator LLM의 Tool/Model Routing 실행 기록. 테이블만 존재하며
+ * F021(현재 미연동): Orchestrator LLM의 Tool/Model Routing 실행 기록. 테이블만 존재하며
  * POST /ai/orchestrations 컨트롤러는 이 엔티티를 저장하지 않고 고정 placeholder만 반환한다.
- * TODO(Phase 99, 팀 확인 후 구현): app/ai FastAPI Orchestrator 실제 호출 및 실행 로그 적재.
+ * TODO: app/ai FastAPI Orchestrator 실제 호출 및 실행 로그 적재.
  */
 @Entity
 @Table(name = "orchestration_runs")

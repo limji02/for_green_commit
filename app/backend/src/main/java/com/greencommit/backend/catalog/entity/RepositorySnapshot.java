@@ -17,7 +17,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** F005: Repository Metadata Snapshot(수집 시점 원본). Batch 확장 파이프라인은 Phase 8 이후. */
+/** F005: Repository Metadata Snapshot(수집 시점 원본). Batch 확장 파이프라인은 현재 미연동이다. */
 @Entity
 @Table(name = "repository_snapshots")
 @Getter

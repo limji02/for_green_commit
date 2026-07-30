@@ -19,8 +19,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F019 확장(Phase 99 보류): 다음 학습 미션 추천. 테이블만 존재, 어떤 서비스도 생성 로직을 갖지 않는다.
- * TODO(Phase 99, 팀 확인 후 구현): History/성장 흔적을 근거로 다음 Mission 추천.
+ * F019 확장(현재 미연동): 다음 학습 미션 추천. 테이블만 존재, 어떤 서비스도 생성 로직을 갖지 않는다.
+ * TODO: History/성장 흔적을 근거로 다음 Mission 추천.
  */
 @Entity
 @Table(name = "next_mission_recommendations")

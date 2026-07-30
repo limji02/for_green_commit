@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F019 초안: 표37 API — GET /history. */
+/** F019 초안: API — GET /history. */
 @RestController
 @RequiredArgsConstructor
 public class HistoryController {

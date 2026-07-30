@@ -19,7 +19,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** F008/부록B: Journey 9단계 중 하나의 상태 레코드. */
+/** F008: Journey 9단계 중 하나의 상태 레코드. */
 @Entity
 @Table(name = "journey_steps")
 @Getter
