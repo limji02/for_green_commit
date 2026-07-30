@@ -29,6 +29,10 @@ app/ai/.pytest_cache/
 app/ai/.mypy_cache/
 app/ai/*.egg-info/
 
+# ==== Python cache (all project directories) ====
+**/__pycache__/
+**/*.py[cod]
+
 # ==== Docker / 인프라 데이터 (app/infra) ====
 app/infra/.data/
 app/infra/**/volumes/
