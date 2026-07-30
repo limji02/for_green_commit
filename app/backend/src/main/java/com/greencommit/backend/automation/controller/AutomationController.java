@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F009/F010/F013: 표37 API — POST /automations/fork, /automations/clone/prepare, /ide-launch. */
+/** F009/F010/F013: API — POST /automations/fork, /automations/clone/prepare, /ide-launch. */
 @RestController
 @RequiredArgsConstructor
 public class AutomationController {

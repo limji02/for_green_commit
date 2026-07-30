@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F016/F017 MVP 슬라이스: 표37 API — POST /pull-requests, GET /pull-requests/{id}/status. */
+/** F016/F017 MVP 슬라이스: API — POST /pull-requests, GET /pull-requests/{id}/status. */
 @RestController
 @RequiredArgsConstructor
 public class PullRequestController {

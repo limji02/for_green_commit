@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * F018(현재 미연동): 표37 API — GET /notifications.
+ * F018(현재 미연동): API — GET /notifications.
  * TODO: 실제 알림 생성·조회 로직 연결. 지금은 항상 빈 목록.
  */
 @RestController

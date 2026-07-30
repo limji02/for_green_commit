@@ -3,7 +3,7 @@ package com.greencommit.backend.recommendation.dto;
 import java.util.List;
 import java.util.UUID;
 
-/** GET /recommendations/repositories 응답 — 표16 Repository 카드 + 추천 점수/근거. */
+/** GET /recommendations/repositories 응답 — Repository 카드 + 추천 점수/근거. */
 public record RepositoryRecommendationResponse(
         UUID repositoryId,
         String fullName,

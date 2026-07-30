@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * 표13/BR03: "오픈소스가 처음이에요" 여부 + 관심 분야·투자 시간 등 추가 프로필 입력(F003).
+ * BR03: "오픈소스가 처음이에요" 여부 + 관심 분야·투자 시간 등 추가 프로필 입력(F003).
  */
 @Entity
 @Table(name = "preferences")

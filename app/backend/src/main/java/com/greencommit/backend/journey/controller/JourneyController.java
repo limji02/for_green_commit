@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * F008: 표37 API — POST /journeys, PATCH /journeys/{id}/steps/{step}.
- * GET /journeys/{id}는 표37 원안엔 없지만, Journey 개요(SCR008) 화면이 새로고침 후에도
- * 진행 상태를 다시 불러올 수 있도록 저장한다.
+ * F008: API — POST /journeys, PATCH /journeys/{id}/steps/{step}.
+ * GET /journeys/{id}는 Journey 개요(SCR008) 화면에서 새로고침 후에도
+ * 진행 상태를 다시 불러올 수 있도록 제공한다.
  */
 @RestController
 @RequiredArgsConstructor

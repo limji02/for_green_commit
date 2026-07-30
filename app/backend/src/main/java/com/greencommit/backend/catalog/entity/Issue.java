@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F006/F007, 표16 Issue 카드: 요약·기여 유형·예상 범위·난이도·담당자/연결 PR·최신성.
+ * F006/F007, Issue 카드: 요약·기여 유형·예상 범위·난이도·담당자/연결 PR·최신성.
  * 문제/기대 결과/완료 기준은 {@link IssueProfile}에 별도 저장한다.
  */
 @Entity

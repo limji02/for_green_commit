@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * F006: 표37 API — GET /recommendations/repositories. recommendation 패키지는 controller
+ * F006: API — GET /recommendations/repositories. recommendation 패키지는 controller
  * 별도 controller 패키지를 두지 않아 catalog 쪽 controller가 recommendation 서비스를 호출한다.
  */
 @RestController

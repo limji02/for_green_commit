@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/** F003/F004/BR03: 추가 프로필·IDE 선택 저장(표13). */
+/** F003/F004/BR03: 추가 프로필·IDE 선택 저장. */
 @Service
 @RequiredArgsConstructor
 public class OnboardingService {

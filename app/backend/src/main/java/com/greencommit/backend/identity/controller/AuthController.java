@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/** F001/BR01: 표37 API — POST /auth/github/callback, 및 GET /auth/session. */
+/** F001/BR01: API — POST /auth/github/callback, 및 GET /auth/session. */
 @RestController
 @RequiredArgsConstructor
 public class AuthController {

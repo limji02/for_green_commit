@@ -17,7 +17,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** 표16 Issue 카드 상세: 현재 문제·기대 결과·완료 기준(Repo·Issue Brief 화면에서 사용). */
+/** Issue 카드 상세: 현재 문제·기대 결과·완료 기준(Repo·Issue Brief 화면에서 사용). */
 @Entity
 @Table(name = "issue_profiles")
 @Getter

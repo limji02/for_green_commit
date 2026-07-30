@@ -30,12 +30,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/** F008/부록B: Journey 생성 및 9단계 상태(완료/스킵/재시도) 관리. */
+/** F008: Journey 생성 및 9단계 상태(완료/스킵/재시도) 관리. */
 @Service
 @RequiredArgsConstructor
 public class JourneyService {
 
-    /** 부록B에 정의된 9단계 순서. */
+    /** Journey의 9단계 순서. */
     private static final JourneyStepType[] STEP_ORDER = {
             JourneyStepType.TUTORIAL,
             JourneyStepType.FORK,

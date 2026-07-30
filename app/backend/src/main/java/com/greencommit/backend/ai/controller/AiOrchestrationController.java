@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * F021(현재 미연동): 표37 API — POST /ai/orchestrations. STUB ONLY — app/ai FastAPI 서비스를
+ * F021(현재 미연동): API — POST /ai/orchestrations. STUB ONLY — app/ai FastAPI 서비스를
  * 호출하지 않고 고정 placeholder만 반환한다.
  * TODO: Orchestrator LLM의 Tool/Model Routing을 app/ai와 연결.
  */
