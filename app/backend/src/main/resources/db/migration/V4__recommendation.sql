@@ -22,7 +22,7 @@ CREATE TABLE recommendation_evidences (
 );
 CREATE INDEX idx_recommendation_evidences_recommendation_id ON recommendation_evidences (recommendation_id);
 
--- F020(현재 미연동): Knowledge Graph 추천 경로. 테이블만 존재, 어떤 서비스도 채우지 않는다.
+-- F020(Phase 99 보류): Knowledge Graph 추천 경로. 테이블만 존재, 어떤 서비스도 채우지 않는다.
 CREATE TABLE graph_paths (
     id                 UUID PRIMARY KEY,
     recommendation_id  UUID REFERENCES recommendations (id),

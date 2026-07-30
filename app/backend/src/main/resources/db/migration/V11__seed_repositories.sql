@@ -1,4 +1,4 @@
--- MVP 시드 데이터 (F005 seed 범위, 최대 1,000개 확장 파이프라인은 현재 미연동).
+-- MVP 시드 데이터 (F005 seed 범위, 최대 1,000개 확장 파이프라인은 Phase 99 보류).
 -- 프로토타입 v3의 REPOS/ISSUES 목업과 동일한 6개 레포로 연속성을 유지한다.
 
 INSERT INTO repositories (id, owner_login, name, full_name, description, primary_language, topics,
