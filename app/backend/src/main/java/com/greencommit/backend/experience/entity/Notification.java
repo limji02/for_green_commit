@@ -19,8 +19,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F018(Phase 99 보류): 알림 보관함. 테이블만 존재, GET /notifications는 항상 빈 목록을 반환한다.
- * TODO(Phase 99, 팀 확인 후 구현): PR Poller/Review 이벤트 기반 알림 생성.
+ * F018(현재 미연동): 알림 보관함. 테이블만 존재, GET /notifications는 항상 빈 목록을 반환한다.
+ * TODO: PR Poller/Review 이벤트 기반 알림 생성.
  */
 @Entity
 @Table(name = "notifications")

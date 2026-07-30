@@ -28,9 +28,9 @@ import org.springframework.transaction.annotation.Transactional;
  * userId가 있으면 Preference.interestAreas와 topics가 겹칠 때 소폭 가산하는 단순 규칙 기반이다.
  * 2026-07-19 사용자 결정: 여기에 PR 평균 피드백 시간(avgFeedbackHours) 가산점을 추가한다 —
  * "머지/피드백까지 오래 기다리는 게 이 서비스의 가장 큰 약점"이라는 피드백에 따라, 응답이 빠른
- * 레포에 소폭의 가산점을 줘 추천 순위에 반영한다. 실제 GitHub 통계 자동 집계(F017)는 Phase 99
- * 보류이고, 지금은 seed의 정적 avgFeedbackHours 값을 기준으로 한다.
- * TODO(Phase 99, 팀 확인 후 구현): Neo4j Knowledge Graph 기반 추천 근거(F020)로 교체.
+ * 레포에 소폭의 가산점을 줘 추천 순위에 반영한다. 실제 GitHub 통계 자동 집계(F017)는 현재 미연동이며,
+ * 현재는 seed의 정적 avgFeedbackHours 값을 기준으로 한다.
+ * TODO: Neo4j Knowledge Graph 기반 추천 근거(F020)로 교체.
  */
 @Service
 @RequiredArgsConstructor

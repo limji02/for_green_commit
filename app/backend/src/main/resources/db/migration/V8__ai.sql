@@ -1,5 +1,5 @@
 -- AI 도메인 (표34): OrchestrationRun, LocalAnalysisResult, RetrievalEvidence, AIExecutionLog.
--- F021/F022(Phase 99 보류) — 테이블만 존재, 어떤 서비스도 채우지 않는다.
+-- F021/F022(현재 미연동) — 테이블만 존재, 어떤 서비스도 채우지 않는다.
 
 CREATE TABLE orchestration_runs (
     id              UUID PRIMARY KEY,

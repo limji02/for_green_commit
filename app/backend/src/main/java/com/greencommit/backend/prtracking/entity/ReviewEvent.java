@@ -18,8 +18,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F017(Phase 99 보류): Review 이벤트(승인/변경요청/코멘트). 테이블만 존재, 로직 없음.
- * TODO(Phase 99, 팀 확인 후 구현): PR Poller가 GitHub Review API 결과를 이 테이블에 적재.
+ * F017(현재 미연동): Review 이벤트(승인/변경요청/코멘트). 테이블만 존재, 로직 없음.
+ * TODO: PR Poller가 GitHub Review API 결과를 이 테이블에 적재.
  */
 @Entity
 @Table(name = "review_events")

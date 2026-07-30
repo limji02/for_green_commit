@@ -1,5 +1,5 @@
 -- Experience 도메인 (표34): Notification, ContributionHistory, NextMissionRecommendation.
--- F019 초안(ContributionHistory) MVP-real. Notification(F018)·NextMissionRecommendation은 Phase 99 보류.
+-- F019 초안(ContributionHistory) MVP-real. Notification(F018)·NextMissionRecommendation은 현재 미연동.
 
 CREATE TABLE contribution_histories (
     id                UUID PRIMARY KEY,

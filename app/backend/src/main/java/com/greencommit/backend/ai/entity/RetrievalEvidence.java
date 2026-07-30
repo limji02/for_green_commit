@@ -18,8 +18,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * F021(Phase 99 보류): RAG 검색 근거. 테이블만 존재, 어떤 서비스도 채우지 않는다.
- * TODO(Phase 99, 팀 확인 후 구현): app/ai retrieval 라우터 결과를 이 테이블에 적재.
+ * F021(현재 미연동): RAG 검색 근거. 테이블만 존재, 어떤 서비스도 채우지 않는다.
+ * TODO: app/ai retrieval 라우터 결과를 이 테이블에 적재.
  */
 @Entity
 @Table(name = "retrieval_evidences")

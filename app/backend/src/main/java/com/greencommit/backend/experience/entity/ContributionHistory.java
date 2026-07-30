@@ -21,7 +21,7 @@ import lombok.Setter;
 
 /**
  * F019 초안: PR 연결 + Journey 요약 문자열만 저장하는 최소 History. Review·Merge 이력 보강은
- * 이번 라운드 범위 밖(팀 확인 후 Phase 99).
+ * 현재 공개 프로토타입 범위 밖이다.
  */
 @Entity
 @Table(name = "contribution_histories")

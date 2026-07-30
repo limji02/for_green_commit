@@ -72,7 +72,7 @@ public class Repository {
 
     /**
      * 평균 첫 피드백까지 걸리는 시간(시간 단위). 추천 가산점(F006)과 PR 등록 후 기대치 안내에
-     * 쓴다. 실제 GitHub 통계 자동 집계(F017)는 Phase 99 보류라, 지금은 seed 값을 수동으로 둔다.
+     * 쓴다. 실제 GitHub 통계 자동 집계(F017)는 현재 미연동이라, 지금은 seed 값을 수동으로 둔다.
      */
     @Column(name = "avg_feedback_hours")
     private Integer avgFeedbackHours;

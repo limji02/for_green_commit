@@ -18,6 +18,7 @@ app/frontend/coverage/
 app/backend/.gradle/
 app/backend/build/
 app/backend/out/
+app/backend/bin/
 **/*.class
 !app/backend/gradle/wrapper/gradle-wrapper.jar
 

@@ -1,6 +1,6 @@
 -- PR Tracking 도메인 (표34): PullRequestLink, PRStatusSnapshot, ReviewEvent, PollingJob.
 -- F016(MVP-real) + F017 MVP 1회 조회 슬라이스. PRStatusSnapshot/ReviewEvent/PollingJob은
--- Phase 99 보류(주기적 Monitoring) 대상으로 테이블만 존재한다.
+-- 현재 미연동(주기적 Monitoring) 대상으로 테이블만 존재한다.
 
 CREATE TABLE pull_request_links (
     id          UUID PRIMARY KEY,
