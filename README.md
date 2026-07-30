@@ -52,6 +52,8 @@ contribution-lab/
 
 `contribution-lab/`은 이후 추가될 예정이며, 문서 수정·기여자 등록·간단한 함수 구현과 같은 입문용 Issue를 제공합니다.
 
+프로젝트 구성과 데이터 흐름은 [`ARCHITECTURE.md`](ARCHITECTURE.md)를 참고하세요.
+
 ## 기술 스택
 
 ### Frontend
