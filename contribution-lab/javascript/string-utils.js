@@ -30,7 +30,18 @@ function countWords(text) {
   return normalized.split(" ").length;
 }
 
+/**
+ * 문자열이 비어 있거나 공백으로만 구성되어 있는지 확인합니다.
+ *
+ * @param {string} text
+ * @returns {boolean}
+ */
+function isBlank(text) {
+  return normalizeWhitespace(text) === "";
+}
+
 module.exports = {
   normalizeWhitespace,
   countWords,
+  isBlank,
 };
