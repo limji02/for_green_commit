@@ -4,6 +4,7 @@ const assert = require("node:assert/strict");
 const {
   normalizeWhitespace,
   countWords,
+  isBlank,
 } = require("./string-utils");
 
 assert.equal(
@@ -17,6 +18,16 @@ assert.equal(countWords("   "), 0);
 
 assert.throws(
   () => normalizeWhitespace(null),
+  TypeError
+);
+
+assert.equal(isBlank(""), true);
+assert.equal(isBlank("   "), true);
+assert.equal(isBlank("\t\n"), true);
+assert.equal(isBlank("hello"), false);
+
+assert.throws(
+  () => isBlank(null),
   TypeError
 );
 
