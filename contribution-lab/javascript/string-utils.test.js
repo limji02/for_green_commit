@@ -11,6 +11,11 @@ assert.equal(
   "first open source contribution"
 );
 
+assert.equal(
+  normalizeWhitespace("\tfirst\nopen   source\tcontribution\n"),
+  "first open source contribution"
+);
+
 assert.equal(normalizeWhitespace(""), "");
 assert.equal(countWords("first open source contribution"), 4);
 assert.equal(countWords("   "), 0);

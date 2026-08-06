@@ -14,6 +14,15 @@ class TextUtilsTest(unittest.TestCase):
             "first open source contribution",
         )
 
+        result_with_tabs_and_newlines = normalize_whitespace(
+            "\tfirst\nopen   source\tcontribution\n"
+        )
+
+        self.assertEqual(
+            result_with_tabs_and_newlines,
+            "first open source contribution",
+        )
+
     def test_empty_text(self) -> None:
         self.assertEqual(normalize_whitespace(""), "")
         self.assertEqual(count_words("   "), 0)
