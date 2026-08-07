@@ -5,6 +5,7 @@ const {
   normalizeWhitespace,
   countWords,
   isBlank,
+  capitalizeFirstLetter,
 } = require("./string-utils");
 
 assert.equal(
@@ -33,6 +34,15 @@ assert.equal(isBlank("hello"), false);
 
 assert.throws(
   () => isBlank(null),
+  TypeError
+);
+
+assert.equal(capitalizeFirstLetter("open source"), "Open source");
+assert.equal(capitalizeFirstLetter(""), "");
+assert.equal(capitalizeFirstLetter("Open source"), "Open source");
+
+assert.throws(
+  () => capitalizeFirstLetter(null),
   TypeError
 );
 
