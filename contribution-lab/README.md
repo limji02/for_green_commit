@@ -92,6 +92,16 @@ cd ../..
 
 정상 결과에는 `OK`가 표시됩니다.
 
+## 자주 묻는 질문
+
+### Q. 실수로 코드를 잘못 작성하면 어떻게 되나요?
+
+괜찮습니다. Contribution Lab은 연습을 위한 공간이며, 실수해도 전혀 문제되지 않습니다.
+
+Pull Request는 Merge되기 전에 Review 단계를 거치므로, Maintainer나 다른 기여자가 의견을 남기면 같은 Branch에서 코드를 수정한 뒤 다시 Commit하고 Push하면 됩니다.
+
+기여 절차와 실수에 대한 더 자세한 안내는 [`../CONTRIBUTING.md`](../CONTRIBUTING.md)를 참고하세요.
+
 ## Pull Request 테스트 시나리오
 
 일부 Issue는 Green Commit의 Pull Request 상태 추적 기능을 검증하기 위해 사용합니다.
