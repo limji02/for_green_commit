@@ -30,7 +30,26 @@ function countWords(text) {
   return normalized.split(" ").length;
 }
 
+/**
+ * 문자열의 첫 글자만 대문자로 변환합니다.
+ *
+ * @param {string} text
+ * @returns {string}
+ */
+function capitalizeFirstLetter(text) {
+  if (typeof text !== "string") {
+    throw new TypeError("text must be a string");
+  }
+
+  if (text === "") {
+    return "";
+  }
+
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
 module.exports = {
   normalizeWhitespace,
   countWords,
+  capitalizeFirstLetter,
 };

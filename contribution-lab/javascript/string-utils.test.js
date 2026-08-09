@@ -4,6 +4,7 @@ const assert = require("node:assert/strict");
 const {
   normalizeWhitespace,
   countWords,
+  capitalizeFirstLetter,
 } = require("./string-utils");
 
 assert.equal(
@@ -17,6 +18,14 @@ assert.equal(countWords("   "), 0);
 
 assert.throws(
   () => normalizeWhitespace(null),
+  TypeError
+);
+
+assert.equal(capitalizeFirstLetter("open source"), "Open source");
+assert.equal(capitalizeFirstLetter(""), "");
+
+assert.throws(
+  () => capitalizeFirstLetter(null),
   TypeError
 );
 
