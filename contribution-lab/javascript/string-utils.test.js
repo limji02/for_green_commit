@@ -4,11 +4,17 @@ const assert = require("node:assert/strict");
 const {
   normalizeWhitespace,
   countWords,
+  isBlank,
   capitalizeFirstLetter,
 } = require("./string-utils");
 
 assert.equal(
   normalizeWhitespace("  first   open source   contribution  "),
+  "first open source contribution"
+);
+
+assert.equal(
+  normalizeWhitespace("\tfirst\nopen   source\tcontribution\n"),
   "first open source contribution"
 );
 
@@ -21,8 +27,19 @@ assert.throws(
   TypeError
 );
 
+assert.equal(isBlank(""), true);
+assert.equal(isBlank("   "), true);
+assert.equal(isBlank("\t\n"), true);
+assert.equal(isBlank("hello"), false);
+
+assert.throws(
+  () => isBlank(null),
+  TypeError
+);
+
 assert.equal(capitalizeFirstLetter("open source"), "Open source");
 assert.equal(capitalizeFirstLetter(""), "");
+assert.equal(capitalizeFirstLetter("Open source"), "Open source");
 
 assert.throws(
   () => capitalizeFirstLetter(null),

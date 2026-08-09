@@ -31,7 +31,19 @@ function countWords(text) {
 }
 
 /**
- * 문자열의 첫 글자만 대문자로 변환합니다.
+ * 문자열이 비어 있거나 공백으로만 구성되어 있는지 확인합니다.
+ *
+ * @param {string} text
+ * @returns {boolean}
+ */
+function isBlank(text) {
+  return normalizeWhitespace(text) === "";
+}
+
+/**
+ * 문자열의 첫 글자만 대문자로 바꾸고 나머지 글자는 그대로 유지합니다.
+ *
+ * 빈 문자열을 전달하면 빈 문자열을 그대로 반환합니다.
  *
  * @param {string} text
  * @returns {string}
@@ -41,15 +53,12 @@ function capitalizeFirstLetter(text) {
     throw new TypeError("text must be a string");
   }
 
-  if (text === "") {
-    return "";
-  }
-
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
 module.exports = {
   normalizeWhitespace,
   countWords,
+  isBlank,
   capitalizeFirstLetter,
 };
