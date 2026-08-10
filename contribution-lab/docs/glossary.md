@@ -46,6 +46,12 @@ Maintainer나 다른 기여자가 Pull Request의 코드와 문서를 검토하�
 
 Pull Request의 변경 내용을 대상 Branch에 합치는 작업입니다.
 
+## Squash Merge
+
+Pull Request에 담긴 여러 개의 Commit을 하나의 Commit으로 합쳐서 대상 Branch에 반영하는 Merge 방식입니다.
+
+작업 중간에 남긴 자잘한 Commit들이 하나로 정리되기 때문에 대상 Branch의 커밋 이력을 깔끔하게 유지할 수 있습니다.
+
 ## Close
 
 Issue나 Pull Request를 완료하거나 중단된 상태로 닫는 작업입니다.
