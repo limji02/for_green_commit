@@ -1,7 +1,7 @@
 # Green Commit Open Source Prototype
 
 > 이 저장소는 실제 Green Commit 운영 서비스와 분리된
-> 교육 및 테스트 목적의 오픈소스 프로토타입입니다.
+> 교육 및 테스트 목적의 오픈소스 프로토타입입니다. 
 
 Green Commit은 오픈소스 기여가 처음인 개발자에게 적절한 Repository와 Issue를 안내하고, Fork부터 Pull Request까지의 기여 과정을 학습할 수 있도록 돕는 프로젝트입니다.
 
