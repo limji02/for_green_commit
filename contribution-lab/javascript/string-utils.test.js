@@ -23,6 +23,7 @@ assert.equal(normalizeWhitespace(""), "");
 assert.equal(countWords("first open source contribution"), 4);
 // countWords additional edge case coverage.
 assert.equal(countWords("   "), 0);
+// countWords mixed whitespace edge case coverage.
 
 assert.throws(
   () => normalizeWhitespace(null),
